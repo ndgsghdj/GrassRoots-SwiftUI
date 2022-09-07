@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct LoginView: View {
+    
     @State var email = ""
     @State var password = ""
+    @EnvironmentObject var viewModel: UserViewModel
+
     var body: some View {
         VStack(alignment: .center) {
             HStack {
@@ -22,10 +26,14 @@ struct LoginView: View {
             Form {
                 Section(header: Text("Email:")) {
                     TextField("Email", text: $email)
+                        .textInputAutocapitalization(.none)
+                        .disableAutocorrection(true)
                 }
                 
                 Section(header: Text("Password:")) {
                     SecureField("Password", text: $password)
+                        .textInputAutocapitalization(.none)
+                        .disableAutocorrection(true)
                 }
                 
             }
@@ -38,7 +46,7 @@ struct LoginView: View {
             }
             Spacer()
             Button {
-                
+                viewModel.signIn(email: email, password: password)
             } label: {
                 Text("Login")
                     .font(.system(size: 24))

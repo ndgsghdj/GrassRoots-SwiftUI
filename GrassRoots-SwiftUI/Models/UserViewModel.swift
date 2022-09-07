@@ -38,6 +38,15 @@ class UserViewModel: ObservableObject {
         }
     }
     
+    func registerUser(email: String, firstName: String, lastName: String, password: String) {
+        auth.createUser(withEmail: email, password: generatePassword(passwordLength: 8)) { [weak self] result, error in
+            guard result != nil, error == nil else { return }
+            DispatchQueue.main.async {
+                self?.add(User(firstName: firstName, lastName: lastName, email: email))
+            }
+        }
+    }
+    
     func signOut() {
         do {
             try auth.signOut()

@@ -12,6 +12,7 @@
 		17236AF428C8844D00FF08B9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17236AF328C8844D00FF08B9 /* FirebaseAuth */; };
 		17236AF628C8844D00FF08B9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17236AF528C8844D00FF08B9 /* FirebaseFirestore */; };
 		17236AF828C885C500FF08B9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17236AF728C885C300FF08B9 /* UserViewModel.swift */; };
+		17236AFB28C8B39300FF08B9 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17236AFA28C8B39300FF08B9 /* PasswordGenerator.swift */; };
 		1788CB8928C7457200D21A2A /* GrassRoots_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788CB8828C7457200D21A2A /* GrassRoots_SwiftUIApp.swift */; };
 		1788CB8D28C7457900D21A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1788CB8C28C7457900D21A2A /* Assets.xcassets */; };
 		1788CB9028C7457900D21A2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1788CB8F28C7457900D21A2A /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		17236AED28C8809200FF08B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17236AEF28C880BC00FF08B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		17236AF728C885C300FF08B9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		17236AFA28C8B39300FF08B9 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		1788CB8528C7457200D21A2A /* GrassRoots-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GrassRoots-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1788CB8828C7457200D21A2A /* GrassRoots_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassRoots_SwiftUIApp.swift; sourceTree = "<group>"; };
 		1788CB8C28C7457900D21A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				1788CB9928C755E800D21A2A /* Navigation.swift */,
 				1788CBA128C7612200D21A2A /* ColourConstants.swift */,
+				17236AFA28C8B39300FF08B9 /* PasswordGenerator.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				1788CB9A28C755E800D21A2A /* Navigation.swift in Sources */,
 				1788CBA228C7612300D21A2A /* ColourConstants.swift in Sources */,
 				1788CB8928C7457200D21A2A /* GrassRoots_SwiftUIApp.swift in Sources */,
+				17236AFB28C8B39300FF08B9 /* PasswordGenerator.swift in Sources */,
 				17236AF028C880BC00FF08B9 /* UserModel.swift in Sources */,
 				17236AF828C885C500FF08B9 /* UserViewModel.swift in Sources */,
 				1788CB9F28C7582100D21A2A /* VolunteerHomePageView.swift in Sources */,

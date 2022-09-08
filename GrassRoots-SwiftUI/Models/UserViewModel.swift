@@ -29,20 +29,21 @@ class UserViewModel: ObservableObject {
     }
     
     // Firebase Auth Functions
+    
+    func registerUser(email: String, firstName: String, lastName: String, password: String, admin: Bool) {
+        auth.createUser(withEmail: email, password: password) { [weak self] result, error in
+            guard result != nil, error == nil else { return }
+            DispatchQueue.main.async {
+                self?.add(User(firstName: firstName, lastName: lastName, email: email, isAdmin: admin))
+            }
+        }
+    }
+    
     func signIn(email: String, password: String) {
         auth.signIn(withEmail: email, password: password) { [weak self] result, error in
             guard result != nil, error == nil else { return }
             DispatchQueue.main.async {
                 self?.sync()
-            }
-        }
-    }
-    
-    func registerUser(email: String, firstName: String, lastName: String, password: String) {
-        auth.createUser(withEmail: email, password: generatePassword(passwordLength: 8)) { [weak self] result, error in
-            guard result != nil, error == nil else { return }
-            DispatchQueue.main.async {
-                self?.add(User(firstName: firstName, lastName: lastName, email: email))
             }
         }
     }

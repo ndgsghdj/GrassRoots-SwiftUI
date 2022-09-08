@@ -1,42 +1,35 @@
 //
-//  ContentView.swift
+//  NewPasswordView.swift
 //  GrassRoots-SwiftUI
 //
-//  Created by Nikola Winata on 6/9/22.
+//  Created by Nikola Winata on 8/9/22.
 //
 
 import SwiftUI
 import Firebase
-import FirebaseAuth
-import FirebaseFirestore
-import FirebaseFirestoreSwift
 
-struct LoginView: View {
-    
+struct NewPasswordView: View {
     @State var email = ""
     @State var password = ""
-    @State var showHome = false
-    @State var showNew = false
-    
     @EnvironmentObject var viewModel: UserViewModel
 
     var body: some View {
         VStack(alignment: .center) {
             HStack {
-                Text("Sign In")
-                .font(.system(size: 60))
+                Text("Set a New Password")
+                .font(.system(size: 30))
                 .fontWeight(.semibold)
             }
-            .frame(width: 428, height: 72)
+            .frame(width: 428, height: 90)
             Spacer()
             Form {
-                Section(header: Text("Email:")) {
-                    TextField("Email", text: $email)
+                Section(header: Text("New Password:")) {
+                    TextField("Password", text: $email)
                         .textInputAutocapitalization(.none)
                         .disableAutocorrection(true)
                 }
                 
-                Section(header: Text("Password:")) {
+                Section(header: Text("Confirm Password")) {
                     SecureField("Password", text: $password)
                         .textInputAutocapitalization(.none)
                         .disableAutocorrection(true)
@@ -45,16 +38,13 @@ struct LoginView: View {
             }
             .frame(width: 378, height: 316, alignment: .center)
             .cornerRadius(20)
-            Button {
-                
-            } label: {
-                Text("Forgot your Password?")
-            }
+            
             Spacer()
             Button {
                 viewModel.signIn(email: email, password: password)
+                
             } label: {
-                Text("Login")
+                Text("Confirm")
                     .font(.system(size: 24))
                     .fontWeight(.semibold)
                     .foregroundColor(.black)
@@ -69,12 +59,11 @@ struct LoginView: View {
         .frame(width: .infinity, height: .infinity)
         
     }
-    
-    
+
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct NewPasswordView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        NewPasswordView()
     }
 }

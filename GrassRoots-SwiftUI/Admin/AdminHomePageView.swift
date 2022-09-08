@@ -13,6 +13,7 @@ struct AdminHomePageView: View {
             VStack {
                 HStack {
                     Text("Welcome, ndgsghdj")
+                        .fontWeight(.semibold)
                         .font(.system(size: 28))
                         .fontWeight(.semibold)
                         .foregroundColor(Color.black)
@@ -65,6 +66,7 @@ struct AdminHomePageView: View {
             Text("Profile")
                 .tabItem {
                     Image(systemName: "person.crop.circle")
+                    Text("Profile")
                 }
         }
     }

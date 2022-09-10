@@ -39,6 +39,17 @@ class UserViewModel: ObservableObject {
         }
     }
     
+    func resetPassword(email: String, resetCompletion:@escaping(Result<Bool, Error>) -> Void) {
+        Auth.auth().sendPasswordReset(withEmail: email, completion: { (error) in
+            if let error = error {
+                resetCompletion(.failure(error))
+            } else {
+                resetCompletion(.success(true))
+            }
+            
+        })
+    }
+    
     func signIn(email: String, password: String) {
         auth.signIn(withEmail: email, password: password) { [weak self] result, error in
             guard result != nil, error == nil else { return }

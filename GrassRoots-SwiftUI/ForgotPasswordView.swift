@@ -8,30 +8,26 @@
 import SwiftUI
 import Firebase
 
-struct NewPasswordView: View {
+struct ForgotPasswordView: View {
     @State var email = ""
     @State var password = ""
+    @State private var showAlert = false
+    @State private var errString: String?
     @EnvironmentObject var viewModel: UserViewModel
 
     var body: some View {
         VStack(alignment: .center) {
             HStack {
-                Text("Set a New Password")
+                Text("Forgot Your Password?")
                 .font(.system(size: 30))
                 .fontWeight(.semibold)
             }
             .frame(width: 428, height: 90)
             Spacer()
             Form {
-                Section(header: Text("New Password:")) {
-                    TextField("Password", text: $email)
-                        .textInputAutocapitalization(.none)
-                        .disableAutocorrection(true)
-                }
-                
-                Section(header: Text("Confirm Password")) {
-                    SecureField("Password", text: $password)
-                        .textInputAutocapitalization(.none)
+                Section(header: Text("Email:")) {
+                    TextField("Email", text: $email)
+                        .textInputAutocapitalization(.never)
                         .disableAutocorrection(true)
                 }
                 
@@ -41,10 +37,18 @@ struct NewPasswordView: View {
             
             Spacer()
             Button {
-                viewModel.signIn(email: email, password: password)
+                viewModel.resetPassword(email: email) { (result) in
+                    switch result {
+                    case .failure(let error):
+                        self.errString = error.localizedDescription
+                    case .success( _):
+                        break
+                    }
+                    self.showAlert = true
+                }
                 
             } label: {
-                Text("Confirm")
+                Text("Reset Password")
                     .font(.system(size: 24))
                     .fontWeight(.semibold)
                     .foregroundColor(.black)
@@ -54,16 +58,18 @@ struct NewPasswordView: View {
             .frame(width: 316, height: 64, alignment: .center)
             .background(Color.beige)
             .cornerRadius(15)
+            
         }
         .padding()
         .frame(width: .infinity, height: .infinity)
         
     }
+    
 
 }
 
-struct NewPasswordView_Previews: PreviewProvider {
+struct ForgotPasswordView_Previews: PreviewProvider {
     static var previews: some View {
-        NewPasswordView()
+        ForgotPasswordView()
     }
 }

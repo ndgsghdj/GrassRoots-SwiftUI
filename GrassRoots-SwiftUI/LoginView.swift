@@ -16,7 +16,7 @@ struct LoginView: View {
     @State var email = ""
     @State var password = ""
     @State var showHome = false
-    @State var showNew = false
+    @State var showForgot = false
     
     @EnvironmentObject var viewModel: UserViewModel
 
@@ -46,7 +46,7 @@ struct LoginView: View {
             .frame(width: 378, height: 316, alignment: .center)
             .cornerRadius(20)
             Button {
-                
+                showForgot = true //segue
             } label: {
                 Text("Forgot your Password?")
             }
@@ -67,6 +67,7 @@ struct LoginView: View {
         }
         .padding()
         .frame(width: .infinity, height: .infinity)
+        .navigate(to: ForgotPasswordView(), when: $showForgot)
         
     }
     

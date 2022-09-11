@@ -22,6 +22,17 @@
 		1788CBA228C7612300D21A2A /* ColourConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788CBA128C7612200D21A2A /* ColourConstants.swift */; };
 		17985EFE28C968D600B851E2 /* AdminHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17985EFD28C968D500B851E2 /* AdminHomePageView.swift */; };
 		17985F0028C96E6600B851E2 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17985EFF28C96E6600B851E2 /* ReportModel.swift */; };
+		BD29C2B628CDD0E30001C568 /* HouseVisits1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */; };
+		BD29C2B828CDD0EB0001C568 /* HouseVisits2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */; };
+		BD29C2BA28CDD0F10001C568 /* HouseVisits3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */; };
+		BD29C2BC28CDD0FA0001C568 /* HouseVisits4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2BB28CDD0FA0001C568 /* HouseVisits4.swift */; };
+		BD29C2BE28CDD1000001C568 /* HouseVisits5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2BD28CDD1000001C568 /* HouseVisits5.swift */; };
+		BD29C2C028CDD1050001C568 /* HouseVisits6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2BF28CDD1050001C568 /* HouseVisits6.swift */; };
+		BD29C2C228CDD10C0001C568 /* HouseVisits7.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2C128CDD10C0001C568 /* HouseVisits7.swift */; };
+		BD29C2C428CDD1180001C568 /* HouseVisitsSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2C328CDD1180001C568 /* HouseVisitsSubmission.swift */; };
+		BD29C2C628CDD1BF0001C568 /* NewReport1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2C528CDD1BF0001C568 /* NewReport1.swift */; };
+		BD29C2C828CDD1C50001C568 /* NewReport2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2C728CDD1C50001C568 /* NewReport2.swift */; };
+		BD29C2CA28CDD1CB0001C568 /* NewReport3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2C928CDD1CB0001C568 /* NewReport3.swift */; };
 		BD50FCB428CAEA0500FC2CF1 /* HouseVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50FCB328CAEA0500FC2CF1 /* HouseVisits.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +53,17 @@
 		1788CBA128C7612200D21A2A /* ColourConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourConstants.swift; sourceTree = "<group>"; };
 		17985EFD28C968D500B851E2 /* AdminHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomePageView.swift; sourceTree = "<group>"; };
 		17985EFF28C96E6600B851E2 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits1.swift; sourceTree = "<group>"; };
+		BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits2.swift; sourceTree = "<group>"; };
+		BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits3.swift; sourceTree = "<group>"; };
+		BD29C2BB28CDD0FA0001C568 /* HouseVisits4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits4.swift; sourceTree = "<group>"; };
+		BD29C2BD28CDD1000001C568 /* HouseVisits5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits5.swift; sourceTree = "<group>"; };
+		BD29C2BF28CDD1050001C568 /* HouseVisits6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits6.swift; sourceTree = "<group>"; };
+		BD29C2C128CDD10C0001C568 /* HouseVisits7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits7.swift; sourceTree = "<group>"; };
+		BD29C2C328CDD1180001C568 /* HouseVisitsSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisitsSubmission.swift; sourceTree = "<group>"; };
+		BD29C2C528CDD1BF0001C568 /* NewReport1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReport1.swift; sourceTree = "<group>"; };
+		BD29C2C728CDD1C50001C568 /* NewReport2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReport2.swift; sourceTree = "<group>"; };
+		BD29C2C928CDD1CB0001C568 /* NewReport3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReport3.swift; sourceTree = "<group>"; };
 		BD50FCB328CAEA0500FC2CF1 /* HouseVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +123,17 @@
 				1788CB9B28C7573A00D21A2A /* LoginView.swift */,
 				171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */,
 				BD50FCB328CAEA0500FC2CF1 /* HouseVisits.swift */,
+				BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */,
+				BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */,
+				BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */,
+				BD29C2BB28CDD0FA0001C568 /* HouseVisits4.swift */,
+				BD29C2BD28CDD1000001C568 /* HouseVisits5.swift */,
+				BD29C2BF28CDD1050001C568 /* HouseVisits6.swift */,
+				BD29C2C128CDD10C0001C568 /* HouseVisits7.swift */,
+				BD29C2C328CDD1180001C568 /* HouseVisitsSubmission.swift */,
+				BD29C2C528CDD1BF0001C568 /* NewReport1.swift */,
+				BD29C2C728CDD1C50001C568 /* NewReport2.swift */,
+				BD29C2C928CDD1CB0001C568 /* NewReport3.swift */,
 				1788CB8C28C7457900D21A2A /* Assets.xcassets */,
 				1788CB8E28C7457900D21A2A /* Preview Content */,
 				17236AF128C880C200FF08B9 /* Models */,
@@ -213,14 +246,25 @@
 			files = (
 				171CC12028C95D9F00073FA3 /* NewPasswordView.swift in Sources */,
 				1788CB9C28C7573A00D21A2A /* LoginView.swift in Sources */,
+				BD29C2BE28CDD1000001C568 /* HouseVisits5.swift in Sources */,
+				BD29C2C228CDD10C0001C568 /* HouseVisits7.swift in Sources */,
 				1788CB9A28C755E800D21A2A /* Navigation.swift in Sources */,
 				1788CBA228C7612300D21A2A /* ColourConstants.swift in Sources */,
 				1788CB8928C7457200D21A2A /* GrassRoots_SwiftUIApp.swift in Sources */,
 				17236AFB28C8B39300FF08B9 /* PasswordGenerator.swift in Sources */,
 				17236AF028C880BC00FF08B9 /* UserModel.swift in Sources */,
+				BD29C2BC28CDD0FA0001C568 /* HouseVisits4.swift in Sources */,
+				BD29C2B828CDD0EB0001C568 /* HouseVisits2.swift in Sources */,
 				17985F0028C96E6600B851E2 /* ReportModel.swift in Sources */,
+				BD29C2C428CDD1180001C568 /* HouseVisitsSubmission.swift in Sources */,
+				BD29C2BA28CDD0F10001C568 /* HouseVisits3.swift in Sources */,
+				BD29C2C628CDD1BF0001C568 /* NewReport1.swift in Sources */,
 				17236AF828C885C500FF08B9 /* UserViewModel.swift in Sources */,
 				17985EFE28C968D600B851E2 /* AdminHomePageView.swift in Sources */,
+				BD29C2B628CDD0E30001C568 /* HouseVisits1.swift in Sources */,
+				BD29C2CA28CDD1CB0001C568 /* NewReport3.swift in Sources */,
+				BD29C2C028CDD1050001C568 /* HouseVisits6.swift in Sources */,
+				BD29C2C828CDD1C50001C568 /* NewReport2.swift in Sources */,
 				BD50FCB428CAEA0500FC2CF1 /* HouseVisits.swift in Sources */,
 				054DACD428CAFF7300B06F85 /* profilePage.swift in Sources */,
 				1788CB9F28C7582100D21A2A /* VolunteerHomePageView.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct GrassRoots_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            VolunteerHomePageView()
         }
     }
 }

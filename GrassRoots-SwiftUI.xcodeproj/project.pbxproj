@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054DACD428CAFF7300B06F85 /* profilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054DACD328CAFF7300B06F85 /* profilePage.swift */; };
 		171CC12028C95D9F00073FA3 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */; };
 		17236AEE28C8809200FF08B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17236AED28C8809200FF08B9 /* GoogleService-Info.plist */; };
 		17236AF028C880BC00FF08B9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17236AEF28C880BC00FF08B9 /* UserModel.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054DACD328CAFF7300B06F85 /* profilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage.swift; sourceTree = "<group>"; };
 		171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		17236AED28C8809200FF08B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17236AEF28C880BC00FF08B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				1788CB9E28C7582100D21A2A /* VolunteerHomePageView.swift */,
+				054DACD328CAFF7300B06F85 /* profilePage.swift */,
 			);
 			path = Volunteer;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				17236AF828C885C500FF08B9 /* UserViewModel.swift in Sources */,
 				17985EFE28C968D600B851E2 /* AdminHomePageView.swift in Sources */,
 				BD50FCB428CAEA0500FC2CF1 /* HouseVisits.swift in Sources */,
+				054DACD428CAFF7300B06F85 /* profilePage.swift in Sources */,
 				1788CB9F28C7582100D21A2A /* VolunteerHomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		054DACD428CAFF7300B06F85 /* profilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054DACD328CAFF7300B06F85 /* profilePage.swift */; };
-		171CC12028C95D9F00073FA3 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */; };
 		17236AEE28C8809200FF08B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17236AED28C8809200FF08B9 /* GoogleService-Info.plist */; };
 		17236AF028C880BC00FF08B9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17236AEF28C880BC00FF08B9 /* UserModel.swift */; };
 		17236AF828C885C500FF08B9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17236AF728C885C300FF08B9 /* UserViewModel.swift */; };
@@ -22,6 +21,7 @@
 		1788CBA228C7612300D21A2A /* ColourConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788CBA128C7612200D21A2A /* ColourConstants.swift */; };
 		17985EFE28C968D600B851E2 /* AdminHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17985EFD28C968D500B851E2 /* AdminHomePageView.swift */; };
 		17985F0028C96E6600B851E2 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17985EFF28C96E6600B851E2 /* ReportModel.swift */; };
+		17D694CF28CF1C0900307717 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D694CE28CF1C0900307717 /* ForgotPasswordView.swift */; };
 		BD29C2B628CDD0E30001C568 /* HouseVisits1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */; };
 		BD29C2B828CDD0EB0001C568 /* HouseVisits2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */; };
 		BD29C2BA28CDD0F10001C568 /* HouseVisits3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */; };
@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		054DACD328CAFF7300B06F85 /* profilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage.swift; sourceTree = "<group>"; };
-		171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		17236AED28C8809200FF08B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17236AEF28C880BC00FF08B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		17236AF728C885C300FF08B9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		1788CBA128C7612200D21A2A /* ColourConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourConstants.swift; sourceTree = "<group>"; };
 		17985EFD28C968D500B851E2 /* AdminHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomePageView.swift; sourceTree = "<group>"; };
 		17985EFF28C96E6600B851E2 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		17D694CE28CF1C0900307717 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits1.swift; sourceTree = "<group>"; };
 		BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits2.swift; sourceTree = "<group>"; };
 		BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVisits3.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				1788CB9628C74BC200D21A2A /* Utilities */,
 				1788CB8828C7457200D21A2A /* GrassRoots_SwiftUIApp.swift */,
 				1788CB9B28C7573A00D21A2A /* LoginView.swift */,
-				171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */,
+				17D694CE28CF1C0900307717 /* ForgotPasswordView.swift */,
 				BD9596D228CF18F500977E0B /* HouseVisits */,
 				BD9596D328CF190700977E0B /* NewReport */,
 				1788CB8C28C7457900D21A2A /* Assets.xcassets */,
@@ -260,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171CC12028C95D9F00073FA3 /* NewPasswordView.swift in Sources */,
 				1788CB9C28C7573A00D21A2A /* LoginView.swift in Sources */,
 				BD29C2BE28CDD1000001C568 /* HouseVisits5.swift in Sources */,
 				BD29C2C228CDD10C0001C568 /* HouseVisits7.swift in Sources */,
@@ -271,6 +270,7 @@
 				17236AF028C880BC00FF08B9 /* UserModel.swift in Sources */,
 				BD29C2BC28CDD0FA0001C568 /* HouseVisits4.swift in Sources */,
 				BD29C2B828CDD0EB0001C568 /* HouseVisits2.swift in Sources */,
+				17D694CF28CF1C0900307717 /* ForgotPasswordView.swift in Sources */,
 				17985F0028C96E6600B851E2 /* ReportModel.swift in Sources */,
 				BD29C2C428CDD1180001C568 /* HouseVisitsSubmission.swift in Sources */,
 				BD29C2BA28CDD0F10001C568 /* HouseVisits3.swift in Sources */,

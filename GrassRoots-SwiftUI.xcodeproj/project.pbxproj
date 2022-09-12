@@ -122,18 +122,8 @@
 				1788CB8828C7457200D21A2A /* GrassRoots_SwiftUIApp.swift */,
 				1788CB9B28C7573A00D21A2A /* LoginView.swift */,
 				171CC11F28C95D9F00073FA3 /* NewPasswordView.swift */,
-				BD50FCB328CAEA0500FC2CF1 /* HouseVisits.swift */,
-				BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */,
-				BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */,
-				BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */,
-				BD29C2BB28CDD0FA0001C568 /* HouseVisits4.swift */,
-				BD29C2BD28CDD1000001C568 /* HouseVisits5.swift */,
-				BD29C2BF28CDD1050001C568 /* HouseVisits6.swift */,
-				BD29C2C128CDD10C0001C568 /* HouseVisits7.swift */,
-				BD29C2C328CDD1180001C568 /* HouseVisitsSubmission.swift */,
-				BD29C2C528CDD1BF0001C568 /* NewReport1.swift */,
-				BD29C2C728CDD1C50001C568 /* NewReport2.swift */,
-				BD29C2C928CDD1CB0001C568 /* NewReport3.swift */,
+				BD9596D228CF18F500977E0B /* HouseVisits */,
+				BD9596D328CF190700977E0B /* NewReport */,
 				1788CB8C28C7457900D21A2A /* Assets.xcassets */,
 				1788CB8E28C7457900D21A2A /* Preview Content */,
 				17236AF128C880C200FF08B9 /* Models */,
@@ -166,6 +156,32 @@
 				054DACD328CAFF7300B06F85 /* profilePage.swift */,
 			);
 			path = Volunteer;
+			sourceTree = "<group>";
+		};
+		BD9596D228CF18F500977E0B /* HouseVisits */ = {
+			isa = PBXGroup;
+			children = (
+				BD50FCB328CAEA0500FC2CF1 /* HouseVisits.swift */,
+				BD29C2B528CDD0E30001C568 /* HouseVisits1.swift */,
+				BD29C2B728CDD0EB0001C568 /* HouseVisits2.swift */,
+				BD29C2B928CDD0F10001C568 /* HouseVisits3.swift */,
+				BD29C2BB28CDD0FA0001C568 /* HouseVisits4.swift */,
+				BD29C2BD28CDD1000001C568 /* HouseVisits5.swift */,
+				BD29C2BF28CDD1050001C568 /* HouseVisits6.swift */,
+				BD29C2C128CDD10C0001C568 /* HouseVisits7.swift */,
+				BD29C2C328CDD1180001C568 /* HouseVisitsSubmission.swift */,
+			);
+			path = HouseVisits;
+			sourceTree = "<group>";
+		};
+		BD9596D328CF190700977E0B /* NewReport */ = {
+			isa = PBXGroup;
+			children = (
+				BD29C2C528CDD1BF0001C568 /* NewReport1.swift */,
+				BD29C2C728CDD1C50001C568 /* NewReport2.swift */,
+				BD29C2C928CDD1CB0001C568 /* NewReport3.swift */,
+			);
+			path = NewReport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
